@@ -1,0 +1,10 @@
+/* variables.css */
+:root {
+  --primary-color: #f1e8e1;
+  --font-family: "Lora", sans-serif;
+  --link-color: #54524f;
+  --products-container-width: 1760px;
+  --products-item-width: 410px;
+  --products-item-height: 547px;
+  --text-secondary-color: #af7f66;
+}
