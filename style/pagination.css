@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: var(--text-primary-color);
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+}
+
+.pagination a:hover {
+  background-color: var(--text-primary-color);
+  color: var(--primary-color);
+}
+
+.pagination .active {
+  background-color: var(--text-primary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.pagination .disabled {
+  color: #ccc;
+  pointer-events: none;
+}

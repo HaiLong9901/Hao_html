@@ -3,7 +3,7 @@
 .navbar {
   margin-bottom: 0;
   height: 80px;
-  background-color: var(--primary-color);
+  background-color: #fff;
   align-items: end;
 }
 .navbar-nav .nav-link {
@@ -37,7 +37,7 @@
 }
 
 .products-container {
-  width: 1408px;
+  width: var(--products-container-width);
   margin: 0 auto;
 }
 
@@ -180,8 +180,13 @@ footer {
 }
 
 @media (min-width: 1900px) {
+  :root {
+    --products-container-width: 1760px;
+    --products-item-width: 410px;
+    --products-item-height: 547px;
+  }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1500px) and (max-width: 1899px) {
   :root {
     --products-container-width: 1408px;
     --products-item-width: 328px;
